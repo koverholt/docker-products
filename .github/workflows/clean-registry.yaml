@@ -9,7 +9,7 @@ jobs:
     env:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-      DRY_RUN: 1
+      DRY_RUN: 0
     runs-on: ubuntu-latest
     name: cleanup-dockerhub
     steps:
