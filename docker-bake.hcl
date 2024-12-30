@@ -1,6 +1,6 @@
 ### Variable definitions ###
 variable CONNECT_VERSION {
-    default = "2024.11.0"
+    default = "2024.12.0"
 }
 
 variable PACKAGE_MANAGER_VERSION {

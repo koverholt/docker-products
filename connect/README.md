@@ -7,7 +7,7 @@
 
 # Supported tags and respective Dockerfile links
 
-* [`jammy`, `ubuntu2204`, `jammy-2024.11.0`, `ubuntu2204-2024.11.0`](https://github.com/rstudio/rstudio-docker-products/blob/main/connect/Dockerfile.2204)
+* [`jammy`, `ubuntu2204`, `jammy-2024.12.0`, `ubuntu2204-2024.12.0`](https://github.com/rstudio/rstudio-docker-products/blob/main/connect/Dockerfile.2204)
 
 # What is Posit Connect?
 

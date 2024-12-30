@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends ca-certificates curl && \
     rm -rf /var/lib/apt/lists/*
 
-ARG RSC_VERSION=2024.11.0
+ARG RSC_VERSION=2024.12.0
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN mkdir -p /rsc-staging && \
     RSC_VERSION_URL=$(echo -n "${RSC_VERSION}" | sed 's/+/%2B/g') && \
